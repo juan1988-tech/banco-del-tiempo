@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+:root{
+  /*dark theme*/
+  --dark-grey-second: #EFEFEF;
+  --shadow: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+  --light-button: linear-gradient(90deg, rgba(239,236,236,1) 0%, rgba(228,227,228,1) 50%, rgba(239,236,236,1) 97%);
+  --dark-blue-second: #0C0B1F;
+  --medium-blue-font: #4E4BF0;
+  --main-white-first: #F4F4F4;
+  --light-blue-font: #5CDED9;
+  --medium-green-font: #118664;
+  --green-light-font: #8FF313;
+  --orange-help: #FF820E;
+  --yellow-help: #FAFF0E;
+  /*dark theme*/
+  --font-gray-p: #A6A6A6;
+  --second-button:  linear-gradient(45deg, rgba(35,30,86,1) 0%, rgba(25,23,57,1) 33%, rgba(25,23,57,1) 66%, rgba(35,30,86,1) 100%);
+  --dark-blue-first: #0F0E28;
+}
+
+div{
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.app{
+  background-color: var(--dark-grey-second);
+}
+
+
+
