@@ -19,15 +19,26 @@
   --dark-blue-first: #0F0E28;
 }
 
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: .625rem;
+  font-family: "Comic Neue", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
 div{
     font-family: "Comic Neue", cursive;
-    font-weight: 300;
+    font-weight: 500;
     font-style: normal;
 }
 
 .app{
   background-color: var(--dark-grey-second);
 } 
-
-
 

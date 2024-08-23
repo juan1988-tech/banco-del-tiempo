@@ -1,0 +1,153 @@
+@import url('../../App.css');
+
+.header{
+    background: var(--dark-grey-second);
+    box-shadow: 0rem 0.4rem 0.4rem var(--font-gray-p);
+    height: 4.4rem;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    padding: 0 1.6rem;
+  }
+
+/*estilos del input*/
+
+.searcher{
+  width: 85.625%;
+  height: 3rem;
+  border-radius: 1.5rem;
+  border: 1px solid var(--dark-blue-second);
+  background: var(--light-button);
+  display: flex;
+  justify-content: space-around;
+  padding: 0 1.6rem;
+}
+
+.searcher-input{
+  height: 100%;
+  width: 100%;
+  background-color: var(--light-button);
+  border: none;
+  
+}
+
+.searcher-button{
+  width: 3.2rem;
+  height: 100%;
+  border: none;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searcher-button-loop{
+  display: block;
+  background-size: cover;
+  background-image: url('../../assets/icons/');
+  background-repeat: no-repeat;
+}
+
+.burguer-button{
+  display: flex;
+  flex-direction: column;
+  width: 3rem;
+  height: 3rem;
+  position: relative;
+}
+
+.burguer-button .first-line{
+  width: 2rem;
+  height: .3rem;
+  background-color: var(--dark-blue-first);
+  position: absolute;
+  top: 6px;
+  left: calc(50% - 1rem);
+  transition: transform;
+  border-radius: 1.5rem;
+  transform: rotate(0deg);
+  transform-origin: 0rem;
+  transition-timing-function: linear;
+  transition-duration: .8s;
+}
+
+/*cambio a la primera linea*/
+.burguer-button .first-line-change{
+  width: 2.6rem;
+  height: .3rem;
+  background-color: var(--dark-blue-first);
+  position: absolute;
+  top: 3px;
+  left: calc(50% - 1rem);
+  border-radius: 1.5rem;
+  transition: transform;
+  transform: rotate(45deg);
+  transform-origin: 0px;
+  transition-timing-function: linear;
+  transition-duration: .8s;
+}
+
+.burguer-button .second-line{
+  width: 2rem;
+  height: .3rem;
+  background-color: var(--dark-blue-first);
+  position: absolute;
+  top: 13px;
+  border-radius: 1.5rem;
+  left: calc(50% - 1rem);
+  transition: transform;
+  transform: rotate(0deg);
+  transform-origin: 0rem;
+  opacity: 1;
+  transition-timing-function: linear;
+  transition-duration: .6s;
+}
+
+/*cambio a la segunda linea*/
+.burguer-button .second-line-change{
+  width: 2rem;
+  height: .3rem;
+  background-color: var(--dark-blue-first);
+  position: absolute;
+  top: 13px;
+  border-radius: 1.5rem;
+  left: calc(50% - 1rem);
+  transition: transform;
+  transform: rotate(0deg);
+  transform-origin: 0rem;
+  opacity: 0;
+  transition-timing-function: linear;
+  transition-duration: .6s;
+}
+
+.burguer-button .third-line{
+  width: 2rem;
+  height: .3rem;
+  background-color: var(--dark-blue-first);
+  position: absolute;
+  top: 20px;
+  border-radius: 1.5rem;
+  left: calc(50% - 1rem);
+  transition: transform;
+  transform: rotate(0deg);
+  transform-origin: 0rem;
+  transition-timing-function: linear;
+  transition-duration: .8s;
+}
+
+.burguer-button .third-line-change{
+  width: 2.6rem;
+  height: .3rem;
+  background-color: var(--dark-blue-first);
+  position: absolute;
+  top: 2.2rem;
+  border-radius: 1.5rem;
+  left: calc(50% - 1rem);
+  transition: transform;
+  transform: rotate(-45deg);
+  transform-origin: 0rem;
+  transition-timing-function: linear;
+  transition-duration: .8s;
+}
+
